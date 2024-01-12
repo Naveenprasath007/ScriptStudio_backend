@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-eobv1=75&#)9v%-)q739bv2j4jaar8j2#(44+38!0s6#11z*p^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['http://18.219.45.124:8000/','https://digi360.truecoverage.com']
+
 
 
 # Application definition
