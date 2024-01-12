@@ -1,0 +1,3 @@
+docker build -t django-scriptstudio_backend-app .
+
+docker run --name scriptstudio-backend -p 8888:8888 -d django-scriptstudio_backend-app 
